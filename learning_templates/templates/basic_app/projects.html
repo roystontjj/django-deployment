@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+    {% block body_block%}
+
+    <h1>Hello and welcome to the site!</h1>
+    <h1>This is the projects.html page</h1>
+
+    <form action="http://127.0.0.1:8000/crampless">
+    <input type="submit" value="Crampless" />
+    </form>
+
+    <form action="http://127.0.0.1:8000/ebike">
+    <input type="submit" value="E-bike" />
+    </form>
+
+    <form action="http://127.0.0.1:8000/GetUp">
+    <input type="submit" value="GetUp" />
+    </form>
+
+    <form action="http://127.0.0.1:8000/uipath">
+    <input type="submit" value="UIpath prototype" />
+    </form>
+
+    <form action="http://127.0.0.1:8000/fyp">
+    <input type="submit" value="Static beam analyzer" />
+    </form>
+
+
+    {% endblock %}

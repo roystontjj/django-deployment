@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% load staticfiles %}
+
+
+    {% block body_block%}
+
+    <h1>Crampless - Bringing rehabilitation into your hands</h1>
+    <h2>A portable rehabilitation device to improve spasticity conditions</h2>
+    <h3>About</h3>
+    <h4>
+    The project is done during the Dyson Product Development challenge whereby each team has a senior Dyson engineer assigned as guidance.
+    Each team is to come up with a problem and solution to solve it from scratch, starting with problem statement to idea generation, market survey and prototyping.</h4>
+    <img src="{% static "images/crampless/crampless8.jpg" %}" alt="oops!">
+
+    <h3>Background</h3>
+    <h4>Stroke is one of the main causes of death and long-term disability today. With 15 million people worldwide suffering from stroke yearly, stroke has affected many people adversely.
+       With the combination of cost and the inconvenience of traveling to hospitals, four out of five patients in Singapore have stopped attending their prescribed rehabilitation programme.
+        To address this issue, portable rehabilitation devices have been created for home setting. Due to the slow recovery of the upper limbs after stroke, current devices mainly focus on hand therapy to recover its strength and functionality. </h4>
+    <h3>Solution</h3>
+    <h4>Crampless designed to decrease spastic hand conditions with accordance to the Modified Ashworth Scale (MAS). It improve spasticity conditions by a modular (think of it as a balloon) which expands and contracts in the users hand so as to
+      passively exercise it. This then decreases the stiffness level of spastic conditions.
+    The Unique Value Proposition (UVP) is that it is designed for simplicity and independent usage.</h4>
+    <img src="{% static "images/crampless/crampless1.jpg" %}" alt="oops!">
+    <h3>Customer pain and needs</h3>
+    <h4>We visited spasticity related organisations to better understand the situation from a user's perspective. During the session, we gain insights on how group rehabilitation is done and also the type of exercise conducted at home.
+    In addition, we contacted some theraphist to explore the different methods and challenges faced from patients.</h4>
+    <img src="{% static "images/crampless/crampless3.jpg" %}" alt="oops!">
+    <h3>Vision specifications - what needs to be achieved for the product to work</h3>
+    <h4>Versatility, different settings based on stiffness level</h4>
+    <h4>Extension of patient's fingers for full range of motion</h4>
+    <h4>Independent usage</h4>
+    <h4>Portability</h4>
+    <h4>Washable</h4>
+    <h4>Simple usage</h4>
+
+    <h3>Schematic diagram</h3>
+    <h4>The product has 3 main components which are the controller, air pump and modular. The system functions as follows, first the controller will be turned on which triggers the air pump to start pumping air
+    ,this then causes the modular to expand which in turns stretches the user's finger hence passively exercising it.</h4>
+    <img src="{% static "images/crampless/crampless4.jpg" %}" alt="oops!">
+
+    <h3>Prototyping</h3>
+    <h4>We tested the proof of concept by a simple setup to blow up a balloon.</h4>
+    <img src="{% static "images/crampless/crampless6.jpg" %}" alt="oops!">
+    <h4>The modular is made with EcoFlex which is shaped by a 3d printed mold.</h4>
+    <img src="{% static "images/crampless/crampless7.jpg" %}" alt="oops!">
+    <img src="{% static "images/crampless/crampless9.jpg" %}" alt="oops!">
+
+    {% endblock %}

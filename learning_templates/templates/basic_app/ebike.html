@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% load staticfiles %}
+
+
+    {% block body_block%}
+
+    <h2>E bike - An electric powered bicycle</h2>
+    <h4>This project is a collaboration with Custommaxxx to transform their conventional bicycle into a electrical powered one</h4>
+    <h4>About</h4>
+    <h5>This is a final year project where we collaborated with Custommaxxx, a company which specialises in chopper style bicycle designs to add on electrical features such as motor, headlamps and tail lamps.</h5>
+    <h5>The company first approached us to discuss the possibilities of an electrical powered bicycle WITHOUT changing the original chopper style, this has proven to be a difficult task as it is the first of its kind,
+       nonetheless, we accepted the challenge and delivered. </h5>
+
+    <h5>This is the original bicycle, as you can see it has a intricate design whereby it uses aluminium plates attached in parallel as the bicycle frame instead of conventional rods. Because of this,
+       the electrical components, especially the motor, cannot be mounted in the middle. This means that it would require unconventional methods and innovation.</h5>
+    <img src="{% static "images/ebike/ebike1.jpg" %}" alt="oops!">
+    <h5>We started off by making afew sketeches on design possiblities, out of which we would compare each design using a design matrix to choose the final design.</h5>
+    <img src="{% static "images/ebike/ebike2.jpg" %}" alt="oops!">
+    <img src="{% static "images/ebike/ebike3.jpg" %}" alt="oops!">
+    <h5>Following that, the whole bicycle is converted into computerised 3d drawing using autocad software, during which we are able to integrate the designs to have a better sense of it. </h5>
+    <img src="{% static "images/ebike/ebike4.jpg" %}" alt="oops!">
+    <img src="{% static "images/ebike/ebike16.jpg" %}" alt="oops!">
+    <img src="{% static "images/ebike/ebike17.jpg" %}" alt="oops!">
+    <h5>Now for the most challenging part, the motor, due to its natural large shape and dimension, there is no way to integrate it into the bicycle frame without compromising its design.
+    This is when we decided to redesign the frame instead, as seen in the picture, the frame is cut off at the bottom to have a slot for the motor. With this, the motor can be slotted in seamlessly without compromising design hence retaining its elegance.</h5>
+    <img src="{% static "images/ebike/ebike5.jpg" %}" alt="oops!">
+    <img src="{% static "images/ebike/ebike9.jpg" %}" alt="oops!">
+    <h5>However, having changed the bicycle frame also means changing the stress applied on the portion, due to the cut, there would be increased stress in the region. We then proceed with stress analysis using computerised tools. Its result shows that
+    the maximum stress is within its accepted region therefore safe to proceed.</h5>
+    <img src="{% static "images/ebike/ebike11.jpg" %}" alt="oops!">
+    <h5>For the prototpying phase, we decided to create a mock up of the bicycle by using acrylic, this drastically reduces the cost and time required yet able to show the integrated electrical components. </h5>
+
+    <h6>The electrical circuit design and position of each components is planned</h6>
+    <img src="{% static "images/ebike/ebike19.jpg" %}" alt="oops!">
+    <img src="{% static "images/ebike/ebike15.jpg" %}" alt="oops!">
+
+    <h5>Finally we have the functional prototype</h5>
+    <img src="{% static "images/ebike/ebike12.jpg" %}" alt="oops!">
+    <img src="{% static "images/ebike/ebike13.jpg" %}" alt="oops!">
+    <img src="{% static "images/ebike/ebike18.jpg" %}" alt="oops!">
+
+    {% endblock %}
